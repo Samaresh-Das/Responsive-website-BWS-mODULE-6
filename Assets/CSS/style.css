@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+}
+
+.part1{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: 
+              linear-gradient(180deg, rgba(
+                0, 0, 0, 0.3), rgba(
+                  0, 0, 0, 0.8)),url('/Assets/Images/harley-davidson-eeTJKC_wz34-unsplash1.jpg');
+     width: 100%;
+     height: 100%;
+}
+
+header{
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+header .nav .navbar{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+header .nav .navbar li{
+    margin: 5px 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.section1{
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: 
+              linear-gradient(180deg, rgba(
+                0, 0, 0, 0.3), rgba(
+                  0, 0, 0, 0.8)),url('/Assets/Images/harley-davidson-eeTJKC_wz34-unsplash1.jpg'); */
+}
+
+.section1 .info1{
+    color: white;
+    padding: 10% 5%;
+}
+
+.info1 h3{
+    font-size: 40px;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+
+.info1 p{
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    color: #b8bdb5;
+}
+
+.info1 button{
+    background-color: #2541b2;
+    padding: 18px 30px;
+    color: white;
+    border: none;
+}
+
+.section2{
+    background-color: #f8f9fa;
+    text-align: center;
+    line-height: 0.5; 
+    padding: 60px;   
+}
+
+.section2 h3{
+   font-family: 'Noto Sans', sans-serif;
+   font-size: 30px;
+}
+
+.section2 p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+.section3 .col1, .col2, .col3{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ced4da;
+}
+
+.section4 .row1{
+    padding: 90px;
+}
+
+.section4 .row2{
+    padding: 90px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.section4 .row2 button{
+    background-color: #2541b2;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ced4da;
+}
+
+.section5 .row52{
+    padding: 90px;
+}
+
+.section5 .row51{
+    padding: 90px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.section5 .row51 button{
+    background-color: #2541b2;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.intro .sec6{
+    padding-top: 100px;
+}
+
+.intro .sec6 img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.intro .sec6 p{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+}
+
+.intro .sec6 .name{
+    font-weight: 700;
+}
+
+.intro .sec6 .position{
+    font-weight: 400;
+}
+
+.intro .stars{
+    display: block;
+   text-align: center;
+   padding-bottom: 100px;
+}
+
+.intro .stars .checked {
+    color: orange;
+  }
+
+.end img{
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+
+.part1m, .section2m, .section3m, .section4m, .section5m, .introm{
+    display: none;
+}
